@@ -1,0 +1,8 @@
+etc
+include
+lib
+Scripts
+share
+pyenv.cfg
+test*.py
+__pycache__
