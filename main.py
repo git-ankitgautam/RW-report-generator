@@ -32,7 +32,7 @@ filename = column2.text_input("Filename:")
 if st.button("Generate Report"):
     progress_bar = st.progress(0)
     stage_text = st.text("")
-    #main(faction_id, war_id, str(leader_api_key),str(filename),progress_callback=update_progress, stage_callback=update_stage)
+    main(faction_id, war_id, str(leader_api_key),str(filename),progress_callback=update_progress, stage_callback=update_stage)
     with open(f"{filename}.xlsx", 'rb') as excel_file:
         pass
     st.download_button("Download report file",data=excel_file, file_name=filename + ".xlsx", on_click=cleanup())
