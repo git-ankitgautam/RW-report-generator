@@ -3,6 +3,6 @@ include
 lib
 Scripts
 share
-pyenv.cfg
 test*.py
 __pycache__
+pyvenv.cfg
