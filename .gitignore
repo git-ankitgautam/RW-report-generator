@@ -6,3 +6,4 @@ share
 test*.py
 __pycache__
 pyvenv.cfg
+version
